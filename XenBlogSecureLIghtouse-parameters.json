@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "mspOfferName": {
+        "value": "XenBlog Secure Lighthouse"
+      },
+      "mspOfferDescription": {
+        "value": "We stop bed things from happening to good organisations"
+      },
+      "managedByTenantId": {
+        "value": "e499fc65-732e-4cbd-b94e-d3e968490e6e"
+      },
+      "authorizations": {
+        "value": [
+          {
+            "principalId": "dda42ea9-8213-4963-b3d8-4fae22afeae2",
+            "roleDefinitionId": "39bc4728-0917-49c7-9d2c-d95423bc2eb4"
+          }
+        ]
+      }
+    }
+  }
